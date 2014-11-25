@@ -1,0 +1,27 @@
+{
+	"keywords" : [
+		"radical-php"
+	],
+	"autoload" : {
+		"psr-0" : {
+			"Radical" : "src"
+		}
+	},
+	"name" : "splitice/radical-pagination-els",
+	"type" : "library",
+	"description" : "radical-pagination-els",
+	"require" : {
+		"php" : ">=5.4",
+        "ruflin/elastica": "dev-master",
+		"splitice/radical-net" : "dev-master",
+		"splitice/radical-common" : "dev-master",
+        "splitice/radical-pagination": "dev-master"
+	},
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/splitice/Elastica"
+        }
+    ],
+	"minimum-stability" : "dev"
+}
